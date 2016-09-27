@@ -1122,7 +1122,7 @@ html {
 }
 
 
-@media all and (min-width:410px){
+@media all and (min-width:376px){
     .slide1 img:nth-child(10){
         width: 20%;
         height:3rem;
@@ -1215,7 +1215,7 @@ html {
         color: #fff;
         position: absolute;
         left: 0.1rem;
-        top: 5.5rem;
+        top: 5.7rem;
         width: 48%;
         height: 5.68rem;
         font-size: 0.32rem;
@@ -1225,7 +1225,7 @@ html {
         color: #fff;
         font-size: 0.4rem;
         right: 2rem;
-        top: 5.5rem;
+        top:5.7rem;
     }
 
     .slide4 p:nth-child(9) {
@@ -1248,14 +1248,14 @@ html {
 
     .slide4 img:nth-child(11){
         left: 1.4rem;
-        top:3.5rem;
+        top:3.8rem;
         width: 3.5rem;
         height: 3.5rem;
     }
     .slide4 b:nth-child(12){
         position: absolute;
         left: 2.7rem;
-        top: 4.6rem;
+        top: 4.9rem;
         font-size: 0.35rem;
         color: #fff;
     }
