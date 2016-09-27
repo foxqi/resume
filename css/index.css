@@ -149,6 +149,91 @@ html {
     height:4.3rem;
 }
 
+
+
+/*down*/
+
+.slide1 .down .in span {
+    font-size: 0.5rem;
+    position: absolute;
+    top: 3.4rem;
+    left: 0.8rem;
+}
+
+.slide1 .down div.in img{
+
+    position: absolute;
+    top: 3rem;
+    left: 0.55rem;
+    /*width: 1.5rem;*/
+    /*height: 1.5rem;*/
+}
+.slide1 .down .in p{
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    top: 2.9rem;
+    left: 1.9rem;
+
+}
+
+.slide1 .down .in i{
+    font-size: 0.4rem;
+    font-style: normal;
+    position: absolute;
+    top: 4rem;
+    right: 0.2rem;
+}
+
+
+.slide1 .down .out{
+    height:11.5rem;
+    position: relative;
+}
+
+.slide1 .down .out img{
+    width: 20%;
+
+}
+
+.slide1 .out img:nth-child(1){
+    height:4rem;
+    position: absolute;
+    left: 0;
+    bottom: 0.1rem;
+}
+
+.slide1 .out img:nth-child(2){
+    height:5rem;
+    position: absolute;
+    left: 20%;
+    bottom: 0.1rem;
+
+}
+
+.slide1 .out img:nth-child(3){
+    height:6rem;
+    position: absolute;
+    left: 40%;
+    bottom: 0.1rem;
+
+}
+
+.slide1 .out img:nth-child(4){
+    height:5rem;
+    position: absolute;
+    left: 60%;
+    bottom: 0.1rem;
+
+}
+
+.slide1 .out img:nth-child(5){
+    height:4rem;
+    position: absolute;
+    left: 80%;
+    bottom: 0.1rem;
+}
+
 #page1 .top img:nth-child(1){
     -webkit-animation:fadeInDownOut 0.8s linear 1s both;
     animation:fadeInDownOut 0.8s linear 1s both;
@@ -169,114 +254,37 @@ html {
     -webkit-animation:fadeInDownOut 1.6s linear 1s both;
     animation:fadeInDownOut 1.6s linear 1s both;
 }
-
-
-/*down*/
-
-.slide1 .down .in span {
-    font-size: 0.5rem;
-    position: absolute;
-    top: 3.4rem;
-    left: 0.8rem;
-}
 #page1 .down .in span{
     -webkit-animation:flipInX 4s linear 2s both;
     animation:flipInX 4s linear 2s both;
-}
-.slide1 .down div.in img{
-
-    position: absolute;
-    top: 3rem;
-    left: 0.55rem;
-    /*width: 1.5rem;*/
-    /*height: 1.5rem;*/
 }
 #page1 .down div.in img{
     -webkit-animation:flipInY 5s linear 2s both;
     animation:flipInY 5s linear 2s both;
 }
-.slide1 .down .in p{
-    font-size: 1rem;
-    font-weight: bold;
-    position: absolute;
-    top: 2.9rem;
-    left: 1.9rem;
-
-}
 #page1 .down .in p{
     -webkit-animation:flipInX 4s linear 2s both;
     animation:flipInX 4s linear 2s both;
-}
-.slide1 .down .in i{
-    font-size: 0.4rem;
-    font-style: normal;
-    position: absolute;
-    top: 4rem;
-    right: 0.2rem;
 }
 #page1 .down .in i{
     -webkit-animation:zoomInRight 3.6s linear 2s both;
     animation:zoomInRight 3.6s linear 2s both;
 }
-
-.slide1 .down .out{
-    height:11.5rem;
-    position: relative;
-}
-
-.slide1 .down .out img{
-    width: 20%;
-
-}
-
-.slide1 .out img:nth-child(1){
-    height:4rem;
-    position: absolute;
-    left: 0;
-    bottom: 0.1rem;
-}
 #page1 .out img:nth-child(1){
     -webkit-animation:bounceInUpOn 2s linear 2s both;
     animation:bounceInUpOn 2s linear 2s both;
-}
-.slide1 .out img:nth-child(2){
-    height:5rem;
-    position: absolute;
-    left: 20%;
-    bottom: 0.1rem;
-
 }
 #page1 .out img:nth-child(2){
     -webkit-animation:bounceInUpOn 2.4s linear 2s both;
     animation:bounceInUpOn 2.4s linear 2s both;
 }
-.slide1 .out img:nth-child(3){
-    height:6rem;
-    position: absolute;
-    left: 40%;
-    bottom: 0.1rem;
-
-}
 #page1 .out img:nth-child(3){
     -webkit-animation:bounceInUpOn 2.8s linear 2s both;
     animation:bounceInUpOn 2.8s linear 2s both;
 }
-.slide1 .out img:nth-child(4){
-    height:5rem;
-    position: absolute;
-    left: 60%;
-    bottom: 0.1rem;
-
-}
 #page1 .out img:nth-child(4){
     -webkit-animation:bounceInUpOn 3.2s linear 2s both;
     animation:bounceInUpOn 3.2s linear 2s both;
-}
-.slide1 .out img:nth-child(5){
-    height:4rem;
-    position: absolute;
-    left: 80%;
-    bottom: 0.1rem;
 }
 #page1 .out img:nth-child(5){
     -webkit-animation:bounceInUpOn 3.6s linear 2s both;
@@ -291,23 +299,7 @@ html {
     height: 5.68rem;
     float: left;
 }
-#page2 .redB li:nth-child(1) {
-    -webkit-animation:rotateInUpLeft 1s linear 0s both;
-    animation:rotateInUpLeft 1s linear 0s both;
 
-}
-#page2 .redB li:nth-child(2){
-    -webkit-animation:rotateInUpRight 1s linear 0s both;
-    animation:rotateInUpRight 1s linear 0s both;
-}
-#page2 .redB li:nth-child(3){
-    -webkit-animation:rotateInUpLeft 1s linear 1s both;
-    animation:rotateInUpLeft 1s linear 1s both;
-}
-#page2 .redB li:nth-child(4){
-    -webkit-animation:rotateInUpRight 1s linear 1s both;
-    animation:rotateInUpRight 1s linear 1s both;
-}
 .slide2 .inFrom{
     position:relative;
 }
@@ -331,10 +323,7 @@ html {
      font-size: 0.5rem;
 
  }
-#page2 .inFrom p{
-    -webkit-animation:rollInR 2s linear 1s both;
-    animation:rollInR 2s linear 1s both;
-}
+
 .slide2 .inFrom b{
     position: absolute;
     left: 1.6rem;
@@ -343,10 +332,7 @@ html {
     font-size: 0.8rem;
  }
 
-#page2 .inFrom b{
-    -webkit-animation:flipInY 2s linear 1s both;
-    animation:flipInY 2s linear 1s both;
-}
+
 .slide2 .inFrom ul{
     position: absolute;
     left: 1rem;
@@ -362,6 +348,31 @@ html {
     color: #fff;
     margin-right: 1.9rem;
 
+}
+#page2 .redB li:nth-child(1) {
+    -webkit-animation:rotateInUpLeft 1s linear 0s both;
+    animation:rotateInUpLeft 1s linear 0s both;
+
+}
+#page2 .redB li:nth-child(2){
+    -webkit-animation:rotateInUpRight 1s linear 0s both;
+    animation:rotateInUpRight 1s linear 0s both;
+}
+#page2 .redB li:nth-child(3){
+    -webkit-animation:rotateInUpLeft 1s linear 1s both;
+    animation:rotateInUpLeft 1s linear 1s both;
+}
+#page2 .redB li:nth-child(4){
+    -webkit-animation:rotateInUpRight 1s linear 1s both;
+    animation:rotateInUpRight 1s linear 1s both;
+}
+#page2 .inFrom p{
+    -webkit-animation:rollInR 2s linear 1s both;
+    animation:rollInR 2s linear 1s both;
+}
+#page2 .inFrom b{
+    -webkit-animation:flipInY 2s linear 1s both;
+    animation:flipInY 2s linear 1s both;
 }
 #page2 .inFrom ul li:nth-child(1){
     -webkit-animation:slideInUpOp 2s linear 2s both;
@@ -398,20 +409,14 @@ html {
     height: 11.4rem;
     float: left;
 }
-#page3 img:nth-child(1){
-    -webkit-animation:flipInY 1s linear 1s both;
-    animation:flipInY 1s linear 1s both;
-}
+
 .slide3 img:nth-child(2){
     width: 50%;
     margin:-0.01rem;
     height: 11.4rem;
     float: left;
 }
-#page3 img:nth-child(2){
-    -webkit-animation:flipInY 1s linear 1s both;
-    animation:flipInY 1s linear 1s both;
-}
+
 .slide3 img:nth-child(3){
     width: 3rem;
     height: 3rem;
@@ -419,10 +424,7 @@ html {
     left: 1.8rem;
     top: 1rem;
  }
-#page3 img:nth-child(3){
-    -webkit-animation:zoomIn 2s linear 1s both;
-    animation:zoomIn 2s linear 1s both;
-}
+
 .slide3 b:nth-child(4){
     color: #fff;
     font-size: 0.6rem;
@@ -430,10 +432,7 @@ html {
     left: 2rem;
     top: 5rem;
 }
-#page3 b:nth-child(4){
-    -webkit-animation:slideInUpOp 2.5s linear 1s both;
-    animation:slideInUpOp 2.5s linear 1s both;
-}
+
 .slide3 p:nth-child(5){
     color: #fff;
     font-size: 0.5rem;
@@ -441,14 +440,31 @@ html {
     left: 1.5rem;
     top: 6rem;
 }
-#page3 p:nth-child(5){
-    -webkit-animation:slideInUpOp 2.7s linear 2s both;
-    animation:slideInUpOp 2.7s linear 2s both;
-}
+
 .slide3 img:nth-child(6){
     position: absolute;
     right: 0;
     top: 9rem;
+}
+#page3 img:nth-child(1){
+    -webkit-animation:flipInY 1s linear 1s both;
+    animation:flipInY 1s linear 1s both;
+}
+#page3 img:nth-child(2){
+    -webkit-animation:flipInY 1s linear 1s both;
+    animation:flipInY 1s linear 1s both;
+}
+#page3 img:nth-child(3){
+    -webkit-animation:zoomIn 2s linear 1s both;
+    animation:zoomIn 2s linear 1s both;
+}
+#page3 b:nth-child(4){
+    -webkit-animation:slideInUpOp 2.5s linear 1s both;
+    animation:slideInUpOp 2.5s linear 1s both;
+}
+#page3 p:nth-child(5){
+    -webkit-animation:slideInUpOp 2.7s linear 2s both;
+    animation:slideInUpOp 2.7s linear 2s both;
 }
 #page3 img:nth-child(6){
     -webkit-animation:slideInUpOp 2s linear 1s both;
@@ -467,6 +483,71 @@ html {
     height: 5.68rem;
     float: left;
 }
+
+.slide4 .redT li .one {
+    position: absolute;
+    left: 0.1rem;
+    top: 0.82rem;
+    width: 48%;
+    height: 5.68rem;
+}
+
+.slide4 .redT li .tow {
+    position: absolute;
+    right: 0.1rem;
+    top: 0.5rem;
+    width: 48%;
+    height: 5.68rem;
+}
+
+.slide4 .redT li .three {
+    position: absolute;
+    left: 0.1rem;
+    top: 6.5rem;
+    width: 48%;
+    height: 5.68rem;
+    font-size: 0.32rem;
+}
+
+.slide4 .redT li .four {
+    display: block;
+    position: absolute;
+    right: 2rem;
+    top: 6.5rem;
+}
+
+.slide4 .redT li .fourO {
+    position: absolute;
+    right: 0rem;
+    top: 7.1rem;
+    width: 48%;
+    height: 5.68rem;
+    font-size: 0.3rem;
+}
+
+.slide4 .redT li .fourt {
+    position: absolute;
+    right: 0rem;
+    top: 8.8rem;
+    width: 48%;
+    height: 5.68rem;
+    font-size: 0.3rem;
+}
+
+.slide4 img:nth-child(2){
+    position: absolute;
+    left: 1.4rem;
+    top: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.slide4 b:nth-child(3){
+    position: absolute;
+    left: 2.7rem;
+    top: 5.1rem;
+    font-size: 0.35rem;
+    color: #fff;
+}
 #page4 .redT li:nth-child(1) {
     -webkit-animation:rotateInUpLeft 1s linear 0s both;
     animation:rotateInUpLeft 1s linear 0s both;
@@ -484,94 +565,36 @@ html {
     -webkit-animation:rotateInUpRight 1s linear 1s both;
     animation:rotateInUpRight 1s linear 1s both;
 }
-.slide4 .redT li .one {
-    position: absolute;
-    left: 0.1rem;
-    top: 0.82rem;
-    width: 48%;
-    height: 5.68rem;
-}
 #page4 .redT li .one{
     -webkit-animation:rotateInUpLeft 1s linear 1s both;
     animation:rotateInUpLeft 1s linear 1s both;
 
 }
-.slide4 .redT li .tow {
-    position: absolute;
-    right: 0.1rem;
-    top: 0.5rem;
-    width: 48%;
-    height: 5.68rem;
-}
 #page4 .redT li .tow{
     -webkit-animation:rotateInUpRight 1s linear 1s both;
     animation:rotateInUpRight 1s linear 1s both;
-}
-.slide4 .redT li .three {
-    position: absolute;
-    left: 0.1rem;
-    top: 6.5rem;
-    width: 48%;
-    height: 5.68rem;
-    font-size: 0.32rem;
 }
 #page4 .redT li .three{
     -webkit-animation:fadeInLeft 1s linear 2s both;
     animation:fadeInLeft 1s linear 2s both;
 }
-
-.slide4 .redT li .four {
-    display: block;
-    position: absolute;
-    right: 2rem;
-    top: 6.5rem;
-}
 #page4 .redT li .four{
     -webkit-animation:fadeInRight 2s linear 2s both;
     animation:fadeInRight 2s linear 2s both;
-}
-.slide4 .redT li .fourO {
-    position: absolute;
-    right: 0rem;
-    top: 7.1rem;
-    width: 48%;
-    height: 5.68rem;
-    font-size: 0.3rem;
 }
 #page4 .redT li .fourO{
     -webkit-animation:fadeInRight 2s linear 2s both;
     animation:fadeInRight 2s linear 2s both;
 }
-.slide4 .redT li .fourt {
-    position: absolute;
-    right: 0rem;
-    top: 8.8rem;
-    width: 48%;
-    height: 5.68rem;
-    font-size: 0.3rem;
-}
 #page4 .redT li .fourt{
     -webkit-animation:fadeInRight 2s linear 2s both;
     animation:fadeInRight 2s linear 2s both;
-}
-.slide4 img:nth-child(2){
-    position: absolute;
-    left: 1.4rem;
-    top: 4rem;
-    width: 3.5rem;
-    height: 3.5rem;
 }
 #page4 img:nth-child(2){
     -webkit-animation:shake 1s linear 1s infinite;
     animation:shake 1s linear 1s infinite;
 }
-.slide4 b:nth-child(3){
-    position: absolute;
-    left: 2.7rem;
-    top: 5.1rem;
-    font-size: 0.35rem;
-    color: #fff;
-}
+
 #page4 b:nth-child(3){
     -webkit-animation:shake 1s linear 1s infinite;
     animation:shake 1s linear 1s infinite;
