@@ -60,9 +60,7 @@ var sw = new Swiper(".swiper-container", {
 
     window.setTimeout(function () {
         musicAudio.play();
-        musicAudio.addEventListener("canplay", function () {
             music.style.display = "block";
             music.className = "music move";
-        }, false);
-    }, 30);
+    }, 1000);
 }();
