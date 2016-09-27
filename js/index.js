@@ -64,5 +64,5 @@ var sw = new Swiper(".swiper-container", {
             music.style.display = "block";
             music.className = "music move";
         }, false);
-    }, 500);
+    }, 30);
 }();
