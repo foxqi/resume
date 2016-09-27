@@ -1122,7 +1122,7 @@ html {
 }
 
 
-@media all and (max-width:640px){
+@media all and (min-width:410px){
     .slide1 img:nth-child(10){
         width: 20%;
         height:3rem;
