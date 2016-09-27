@@ -1212,7 +1212,7 @@ html {
         color: #fff;
         position: absolute;
         left: 0.1rem;
-        top: 5rem;
+        top: 5.5rem;
         width: 48%;
         height: 5.68rem;
         font-size: 0.32rem;
@@ -1222,12 +1222,12 @@ html {
         color: #fff;
         font-size: 0.4rem;
         right: 2rem;
-        top: 5rem;
+        top: 5.5rem;
     }
 
     .slide4 p:nth-child(9) {
         right: 0rem;
-        top: 5.5rem;
+        top: 6.1rem;
         width: 48%;
         height: 5.68rem;
         color: #fff;
@@ -1236,7 +1236,7 @@ html {
 
     .slide4 p:nth-child(10) {
         right: 0rem;
-        top: 7.3rem;
+        top: 7.8rem;
         width: 48%;
         height: 5.68rem;
         font-size: 0.3rem;
