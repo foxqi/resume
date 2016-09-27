@@ -1120,6 +1120,8 @@ html {
     }
 }
 
+
+/*
 @media all and (max-width:960px){
     .slide1 img:nth-child(10){
         width: 20%;
@@ -1339,7 +1341,7 @@ html {
     }
 
 
-}
+}*/
 
 
 
