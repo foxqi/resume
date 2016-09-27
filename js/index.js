@@ -14,7 +14,7 @@
 var sw = new Swiper(".swiper-container", {
     loop: true,
     direction: "vertical",
-    autoplay:6000,
+    //autoplay:3000,
     autoplayDisableOnInteraction: false,
     pagination: ".swiper-pagination",
     lazyLoading: true,
