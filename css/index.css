@@ -18,7 +18,7 @@ html {
 
 /*--music--*/
 .music {
-    display: none;
+    /*display: none;*/
     position: absolute;
     top: .2rem;
     right: .2rem;
@@ -1120,73 +1120,144 @@ html {
     }
 }
 
-/*@media all and (min-width:640px){*/
-    /*.slide2 .inFrom b{*/
-        /*position: absolute;*/
-        /*left: 1.6rem;*/
-        /*top: 5.5rem;*/
-        /*color: #fff;*/
-        /*font-size: 0.8rem;*/
-    /*}*/
-    /*.slide2 .inFrom ul{*/
-        /*position: absolute;*/
-        /*left: 1rem;*/
-        /*top: 6.5rem;*/
-        /*width: 7rem;*/
-        /*height: 5rem;*/
-    /*}*/
-    /*.slide3 img:nth-child(6){*/
-        /*position: absolute;*/
-        /*right: 0;*/
-        /*top: 8rem;*/
-    /*}*/
-    /*.slide4 .redT li .three {*/
-        /*position: absolute;*/
-        /*left: 0.1rem;*/
-        /*top: 5.8rem;*/
-        /*width: 48%;*/
-        /*height: 5.68rem;*/
-        /*font-size: 0.32rem;*/
-    /*}*/
-    /*.slide4 .redT li .four {*/
-        /*display: block;*/
-        /*position: absolute;*/
-        /*right: 2rem;*/
-        /*top: 6rem;*/
-    /*}*/
-    /*.slide4 .redT li .fourO {*/
-        /*position: absolute;*/
-        /*right: 0rem;*/
-        /*top: 6.5rem;*/
-        /*width: 48%;*/
-        /*height: 5.68rem;*/
-        /*font-size: 0.3rem;*/
-    /*}*/
-    /*.slide4 .redT li .fourt {*/
-        /*position: absolute;*/
-        /*right: 0rem;*/
-        /*top: 7.95rem;*/
-        /*width: 48%;*/
-        /*height: 5.68rem;*/
-        /*font-size: 0.3rem;*/
-    /*}*/
-    /*.slide4 img:nth-child(2){*/
-        /*position: absolute;*/
-        /*left: 1.4rem;*/
-        /*top: 3.8rem;*/
-        /*width: 3.5rem;*/
-        /*height: 3.5rem;*/
-    /*}*/
-    /*.slide4 b:nth-child(3){*/
-        /*position: absolute;*/
-        /*left: 2.7rem;*/
-        /*top: 4.9rem;*/
-        /*font-size: 0.35rem;*/
-        /*color: #fff;*/
-    /*}*/
+@media all and (max-width:960px){
+    .slide1 img:nth-child(10){
+        width: 20%;
+        height:3rem;
+        left: 0;
+        bottom: 0;
+    }
 
+    .slide1 img:nth-child(11){
+        width: 20%;
+        height:4rem;
+        left: 20%;
+        bottom: 0;
 
-/*}*/
+    }
+
+    .slide1 img:nth-child(12){
+        width: 20%;
+        height:5rem;
+        left: 40%;
+        bottom: 0;
+
+    }
+
+    .slide1 img:nth-child(13){
+        width: 20%;
+        height:4rem;
+        left: 60%;
+        bottom: 0;
+
+    }
+
+    .slide1 img:nth-child(14){
+        width: 20%;
+        height:3rem;
+        left: 80%;
+        bottom: 0;
+    }
+
+    .slide2 p:nth-child(7){
+        left: 1.6rem;
+        top: 5.5rem;
+        color: #fff;
+        font-size: 0.8rem;
+    }
+    .slide2 p:nth-child(8){
+        left: 1rem;
+        top: 6.5rem;
+        font-size: 0.38rem;
+        color: #fff;
+    }
+    .slide2 p:nth-child(9){
+        left: 1rem;
+        top: 7rem;
+        font-size: 0.38rem;
+        color: #fff;
+    }
+    .slide2 p:nth-child(10){
+        left: 1rem;
+        top: 7.5rem;
+        font-size: 0.38rem;
+        color: #fff;
+    }
+    .slide2 p:nth-child(11){
+        left: 1rem;
+        top: 8rem;
+        font-size: 0.38rem;
+        color: #fff;
+    }
+    .slide2 p:nth-child(12){
+        left: 1rem;
+        top: 8.5rem;
+        font-size: 0.38rem;
+        color: #fff;
+    }
+    .slide2 p:nth-child(13){
+        left: 1rem;
+        top: 9rem;
+        font-size: 0.38rem;
+        color: #fff;
+    }
+    .slide3 img:nth-child(6){
+        width: 2rem;
+        height: 2rem;
+        position: absolute;
+        right: 0;
+        top: 7rem;
+    }
+    .slide4 p:nth-child(6) {
+        color: #fff;
+        position: absolute;
+        left: 0.1rem;
+        top: 5rem;
+        width: 48%;
+        height: 5.68rem;
+        font-size: 0.32rem;
+    }
+
+    .slide4 p:nth-child(8) {
+        color: #fff;
+        font-size: 0.4rem;
+        right: 2rem;
+        top: 5rem;
+    }
+
+    .slide4 p:nth-child(9) {
+        right: 0rem;
+        top: 5.5rem;
+        width: 48%;
+        height: 5.68rem;
+        color: #fff;
+        font-size: 0.3rem;
+    }
+
+    .slide4 p:nth-child(10) {
+        right: 0rem;
+        top: 7.3rem;
+        width: 48%;
+        height: 5.68rem;
+        font-size: 0.3rem;
+        color: #fff;
+    }
+
+    .slide4 img:nth-child(11){
+        left: 1.4rem;
+        top:3.5rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .slide4 b:nth-child(12){
+        position: absolute;
+        left: 2.7rem;
+        top: 4.6rem;
+        font-size: 0.35rem;
+        color: #fff;
+    }
+
+}
 
 
 
