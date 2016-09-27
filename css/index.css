@@ -163,12 +163,9 @@ html {
 }
 
 .slide1 .down div.in img{
-
     position: absolute;
     top: 3rem;
     left: 0.55rem;
-    /*width: 1.5rem;*/
-    /*height: 1.5rem;*/
 }
 .slide1 .down .in p{
     font-size: 1rem;
@@ -643,7 +640,6 @@ html {
     }
 }
 
-
 @-webkit-keyframes bounceInUpOn {
     from, 60%, 75%, 90%, to {
         -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
@@ -679,7 +675,6 @@ html {
         transform: translate3d(0, 0, 0);
     }
 }
-
 
 @-webkit-keyframes zoomInRight {
     from {
